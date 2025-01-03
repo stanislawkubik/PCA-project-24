@@ -28,6 +28,8 @@ We further find that in the ZIRP regimes, the first PC explained significantly l
 
 # 2020-2022 ZIRP
 <img width="518" alt="Screenshot 2025-01-03 at 17 20 10" src="https://github.com/user-attachments/assets/466be6d5-c4ca-4e47-beb4-d9a9d8e75ec1" />
+
+## Factor Loadings
 <img width="589" alt="Screenshot 2025-01-03 at 17 20 35" src="https://github.com/user-attachments/assets/d9c1498b-b0ee-47c4-aa0f-12082e7bf1cb" />
 <img width="587" alt="Screenshot 2025-01-03 at 17 21 08" src="https://github.com/user-attachments/assets/a9212653-2707-4404-aecf-61f9bc0c0613" />
 
@@ -35,6 +37,8 @@ We further find that in the ZIRP regimes, the first PC explained significantly l
 As mentioned previously, in market regimes other than ZIRP first three principal components are enough to explain virtually all (>99%) of the variance. 
 
 <img width="524" alt="Screenshot 2025-01-03 at 17 25 46" src="https://github.com/user-attachments/assets/8b21abf8-65eb-463d-974c-e46b58ef848c" />
+
+## Factor Loadings
 <img width="589" alt="Screenshot 2025-01-03 at 17 26 06" src="https://github.com/user-attachments/assets/0125ba25-8072-48af-88d7-1932ad601c2a" />
 <img width="586" alt="Screenshot 2025-01-03 at 17 26 19" src="https://github.com/user-attachments/assets/49a2ada6-7bc5-4342-9ccc-1a0bf0eac914" />
 
