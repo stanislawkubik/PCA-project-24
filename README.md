@@ -19,12 +19,9 @@ March 2022 - December 2024 | Current monetary policy cycle
 US Treasuries constant maturity yields daily data, as well as data used for correlation analysis is provided by FRED's website.
 <img width="819" alt="Screenshot 2025-01-03 at 17 16 03" src="https://github.com/user-attachments/assets/934db4c8-1e22-4a2f-9951-39ddbc01c693" />
 
-# Findings
-Overall, we find that the principal components that drive the US Yield curve change over time, and whereas they usually represent similar behaviours of the curve (shift, slope and curvature), their magnitude and the effect on different maturities differs in different market regimes.
-
-We further find that in the ZIRP regimes, the first PC explained significantly less variance of the yield curve than in other monetary policy regimes. This makes sense on a very intuitive level, as in the regimes with little variance across all the maturities (i.e. a shift of the entire curve occurring rarely), different types of movements will naturally be responsible for more variance
-
 # Comparison of the PCA results of two chosen market regimes
+
+Below, you can find the results of the PCA performed on the last two subperiods I've analysed. The full code with results of the analysis of both subperiods can be found in the attached Jupyter Notebook.
 
 # 2020-2022 ZIRP
 ## Eigenvalues scaled to 1
@@ -48,7 +45,14 @@ As mentioned previously, in market regimes other than ZIRP first three principal
 ## PCs over time
 <img width="586" alt="Screenshot 2025-01-03 at 17 26 19" src="https://github.com/user-attachments/assets/49a2ada6-7bc5-4342-9ccc-1a0bf0eac914" />
 
-# Further research
+# Findings
+Overall, we find that the principal components that drive the US Yield curve change over time. Although they usually represent similar behaviours of the curve (shift, slope, and curvature), their magnitude and effect on different maturities differ in different market regimes.
+
+We further find that in the ZIRP regimes, the first PC explained significantly less variance of the yield curve than in other monetary policy regimes. This makes sense on a very intuitive level, as in the regimes with little variance across all the maturities (i.e. a shift of the entire curve occurring rarely), different types of movements will naturally be responsible for more variance.
+
+The results of this project highlight the need to verify the stability of Principal Components over time, as they tend to change in line with the changes in market regimes. This provides valuable insights for creating further research projects and trading strategies based on the PCA.
+
+# Ideas for further research
 An interesting idea for further research is to try to model PC2 (slope) in the current monetary policy cycle as a mean-reversion process.
 <img width="755" alt="Screenshot 2025-01-03 at 16 57 36" src="https://github.com/user-attachments/assets/2f7016db-0d77-4cf4-a283-0ff10a97e7a7" /> 
 
